@@ -1,9 +1,11 @@
 'use client'
-import Image from "next/image";
 import {Hero} from "@/components/Hero";
 import {useEffect} from "react";
 import {Explore} from "@/components/Explore";
 import {About} from "@/components/About";
+import {Menu} from "@/components/Menu";
+import {Testimonials} from "@/components/Testimonials";
+import {ContactUs} from "@/components/ContactUs";
 
 export default function Home() {
     useEffect(() => {
@@ -11,7 +13,6 @@ export default function Home() {
             const LocomotiveScroll = (await import('locomotive-scroll')).default
             new LocomotiveScroll()
         }
-
         loadLocomotiveScroll()
     },[])
 
@@ -20,7 +21,9 @@ export default function Home() {
             <Hero/>
             <Explore/>
             <About/>
-            <div className='h-[4000px]'/>
+            <Menu/>
+            <ContactUs/>
+            <Testimonials/>
         </main>
   );
 }

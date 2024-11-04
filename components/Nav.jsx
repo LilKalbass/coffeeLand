@@ -1,6 +1,7 @@
 import React from 'react'
 import {motion} from "framer-motion";
 import Link from "next/link";
+import {links} from "@/lib/data";
 
 const heightAnimation = {
     initial: {
@@ -46,15 +47,6 @@ const letterAnimation = {
         }
     })
 }
-
-const links = [
-    {href: '/', name: 'Home'},
-    {href: '/', name: 'Explore'},
-    {href: '/', name: 'About'},
-    {href: '/', name: 'Menu'},
-    {href: '/', name: 'Contact'},
-]
-
 
 const getWordByLetter = (name) => {
     let word = []

@@ -29,3 +29,8 @@
         tracking-[.15em] rounded-full duration-300 transition-all
     }
 }
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    @apply text-primary !text-[2rem]
+}

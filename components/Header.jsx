@@ -8,7 +8,6 @@ import {Nav} from "@/components/Nav";
 export const Header = () => {
     const [navActive, setNavActive] = useState(false)
 
-
     return (
         <header className='absolute top-[40px] left-0 right-0 z-40'>
             <div className='container mx-auto'>

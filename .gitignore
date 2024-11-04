@@ -11,6 +11,7 @@
 
 # next.js
 /.next/
+/.idea/
 /out/
 
 # production
@@ -20,6 +21,8 @@
 .DS_Store
 *.pem
 /.idea
+/public
+/public/
 
 # debug
 npm-debug.log*
