@@ -22,11 +22,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang= 'en'>
-        <body className = {`${cormorantUpright.variable} ${openSans.variable} antialiased`}>
-        <Header/>
-        {children}
-        <Footer/>
-        </body>
+            <body className = {`${cormorantUpright.variable} ${openSans.variable} antialiased`}>
+                <Header/>
+                {children}
+                <Footer/>
+            </body>
         </html>
     );
 }
