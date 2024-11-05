@@ -9,9 +9,9 @@ export const Header = () => {
     const [navActive, setNavActive] = useState(false)
 
     return (
-        <header className='absolute top-[40px] left-0 right-0 z-40'>
+        <header className='absolute top-[40px] md:left-0 md:right-0 ph:-left-5 ph:-right-5 z-40'>
             <div className='container mx-auto'>
-                <div className='flex justify-between items-center'>
+                <div className='flex justify-between items-center ph:'>
                     <Link href='/' className='relative w-[100px] h-[40px] xl:w-[120px] xl:h-[40px] z-50'>
                         <Image src='/assets/logo.svg' alt='logo_img' className='object-contain' fill/>
                     </Link>
