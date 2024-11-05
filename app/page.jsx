@@ -17,7 +17,7 @@ export default function Home() {
     },[])
 
     return (
-        <main className='h-full overflow-x-hidden'>
+        <main className='h-full overflow-x-hidden w-screen'>
             <Hero/>
             <Explore/>
             <About/>

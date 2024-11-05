@@ -5,7 +5,7 @@ import {menuData} from "@/lib/data";
 
 export const Menu = () => {
     return (
-        <section className='pt-12 pb-16 w-screen'>
+        <section className='pt-12 pb-16'>
             <div className='container mx-auto'>
                 <div className='flex flex-col gap-4 mb-12 xl:mb-16'>
                     <div className='flex flex-col items-center gap-y-2'>

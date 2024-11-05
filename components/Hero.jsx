@@ -4,7 +4,7 @@ import {Separator} from "@/components/Separator";
 
 export const Hero = () => {
     return (
-        <section className='h-[80vh] xl:h-screen relative text-white w-screen'>
+        <section className='h-[80vh] xl:h-screen relative text-white'>
             <div className='bg-hero_overlay absolute w-full h-full z-10 bg-primary/[0.8]'/>
             <video autoPlay playsInline loop muted className = 'absolute top-0 left-0 w-full h-full object-cover pointer-events-none'>
                 <source src='/assets/hero/heroBgVideo.mp4' type='video/mp4'/>

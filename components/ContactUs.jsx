@@ -5,7 +5,7 @@ import {Separator} from "@/components/Separator";
 
 export const ContactUs = () => {
     return (
-        <section className='flex bg-primary h-[60vh] xl:h-[80vh] w-screen'>
+        <section className='flex bg-primary h-[60vh] xl:h-[80vh]'>
             <div className='hidden relative xl:flex flex-1 justify-center items-center'>
                 <Image src='/assets/opening-hours/img.png' alt='ContactUs_IMG' quality={100} fill priority className='object-cover'/>
                 <Badge containerStyles='w-[320px] h-[320px] absolute z-20'/>
