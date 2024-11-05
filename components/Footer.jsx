@@ -35,8 +35,9 @@ export const Footer = () => {
                             <FaInstagram/>
                         </Link>
                     </ul>
-                    <div className='border-t border-white/10 text-[16px] text-white/70 font-light w-full flex items-center justify-center py-6'>
-                        <p>&copy; Copyright 2024 - Zenbrew. All right reserved.</p>
+                    <div className='border-t border-white/10 text-[16px] text-center text-white/70 font-light w-full flex flex-col md:flex-row items-center justify-center py-6'>
+                        <p>&copy; Copyright 2024 - Zenbrew.</p>
+                        <p>All right reserved.</p>
                     </div>
                 </div>
             </div>
