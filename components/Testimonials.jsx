@@ -11,7 +11,7 @@ import {testimonialData} from "@/lib/data";
 
 export const Testimonials = () => {
     return (
-        <section className='h-[50vh] xl:h-[60vh] pb-4'>
+        <section className='h-[60vh] xl:h-[70vh] pb-4'>
             <div className='container mx-auto h-full flex items-center'>
                 <Swiper
                     navigation={true}
