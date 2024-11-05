@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer base {
+
     body {
         @apply font-secondary text-secondary leading-relaxed
     }
